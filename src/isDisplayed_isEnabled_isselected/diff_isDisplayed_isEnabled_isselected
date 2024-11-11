@@ -1,0 +1,19 @@
+Learn difference between:
+isDisplayed() v/s isEnabled() v/s isselected()
+
+Notes:
+   品sDisplayed() is the method used to verify presence of a web eement within the
+   webpage. The method returns a "true" value if the specified web element is
+   present on the web page anda"false" value if the web element is not present on
+   the web page.
+   
+   isDisplayed() is capable to check for the presence of all kinds of web elements
+   available.
+   
+   品sEnabled() is the method used to verify if the web element is enabled or disabled
+   within the webpage. 
+  品sEnabled() is primarily used with buttons.
+  
+   品sSelected() is the method used to verify if the web element is selected or not.
+   isSelected() method is pre-dominantly used with radio buttons, dropdowns and
+   checkboxes.

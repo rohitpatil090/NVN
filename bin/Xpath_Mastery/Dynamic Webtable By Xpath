@@ -1,0 +1,19 @@
+How to handle dynamic WebTable In Selenium
+
+There are two ways of handling WebTable:
+
+Method – 1:
+• Iterate row and column and get the cell value. 
+• Using for loop
+• Get total rows and iterate table
+• Put if(string matches) then select the respective checkbox
+• Lengthy method
+
+Method – 2:
+• Using custom XPath 
+• Using parent and preceding-sibling tags
+• No need to write for loop
+• No full iteration of table
+• Single line statement
+• More dynamic
+• Efficient and fast

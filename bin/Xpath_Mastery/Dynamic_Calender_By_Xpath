@@ -1,0 +1,7 @@
+Steps to handle calendar in Selenium Webdriver:
+ 1- Click on calendar
+ 2- Get all td of tables using findElements method
+ 3- using for loop get text of all elements
+ 4- using if else condition we will check specific date
+ 5- If date is matched then click and break the loop. 
+ 6- Handle NoSuchElementException in case of (31st day)

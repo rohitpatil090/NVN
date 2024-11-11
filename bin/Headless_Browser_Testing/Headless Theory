@@ -1,0 +1,9 @@
+//mandatory options
+
+//1. chrome version should be greater than 59 on mac and greater than 60 on windows
+1/2. window-size-1400,800
+
+ChromeOptions options-new ChrbmeOptions();
+
+options.addArguments("window-size-1400,800");
+options.addArguments("headless");
